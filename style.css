@@ -1,4 +1,4 @@
-/* Base Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,6 @@
     line-height: 1.6;
   }
   
-  /* Header */
   .main-header {
     display: flex;
     justify-content: space-between;
@@ -20,6 +19,7 @@
     padding: 1rem 2rem;
     background-color: #121212;
     border-bottom: 1px solid #333;
+    /* position: fixed; */
   }
   
   .main-header h1 {
@@ -39,7 +39,7 @@
     color: #00fff7;
   }
   
-  .btn {
+  .CV {
     padding: 0.5rem 1rem;
     border-radius: 25px;
     border: 2px solid #00fff7;
@@ -51,14 +51,13 @@
     text-shadow: 0 0 5px #00fff7;
   }
   
-  .btn:hover {
+  .CV:hover {
     background-color: #00fff7;
     color: #121212;
     box-shadow: 0 0 10px #00fff7;
   }
   
-  /* Hero Section */
-  .hero {
+  .container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -66,23 +65,23 @@
     padding: 4rem 2rem;
   }
   
-  .hero-text {
+  .container-text {
     flex: 1;
     max-width: 600px;
   }
   
-  .hero-text h2 {
+  .container-text h2 {
     font-size: 3rem;
     margin: 1rem 0;
     color: #fff;
   }
   
-  .hero-text h2 span {
+  .container-text h2 span {
     color: #a8fffb;
     text-shadow: 0 0 10px #a8fffb;
   }
   
-  .hero-text .highlight {
+  .container-text .highlight {
     color: #ff4ec4;
   }
   
@@ -109,12 +108,12 @@
     box-shadow: 0 0 15px #ff4ec4;
   }
   
-  .hero-img {
+  .container-img {
     flex: 1;
     text-align: center;
   }
   
-  .hero-img img {
+  .container-img img {
     width: 280px;
     border-radius: 50%;
     border: 3px solid #00fff7;
