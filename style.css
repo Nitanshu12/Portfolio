@@ -20,6 +20,7 @@
     background-color: #121212;
     border-bottom: 1px solid #333;
     /* position: fixed; */
+
   }
   
   .main-header h1 {
@@ -68,6 +69,9 @@
   .container-text {
     flex: 1;
     max-width: 600px;
+  }
+  .container-text p{
+    /* font-size: 25px; */
   }
   
   .container-text h2 {
@@ -120,7 +124,6 @@
     box-shadow: 0 0 15px #00fff7;
   }
   
-  /* Social Icons */
   .social-icons {
     margin-top: 2rem;
   }
@@ -141,7 +144,6 @@
     filter: drop-shadow(0 0 10px #00fff7);
   }
   
-  /* Placeholder Sections */
   section {
     padding: 4rem 2rem;
     text-align: center;
